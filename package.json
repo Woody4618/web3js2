@@ -1,0 +1,17 @@
+{
+  "name": "balancetest",
+  "module": "balance.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@solana-program/compute-budget": "^0.6.0",
+    "@solana-program/memo": "^0.6.0",
+    "@solana-program/system": "^0.6.1",
+    "@solana/web3.js": "^2.0.0-rc.4"
+  }
+}
